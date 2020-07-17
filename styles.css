@@ -1,0 +1,136 @@
+#searchbar {
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 550px;
+    height: 20px;
+    border-radius: 75px;
+    border-collapse: collapse;
+}
+#searchbar:hover, #searchbar:focus {
+    border: 2px solid rgb(224, 224, 224);
+    outline: none;
+}
+.center_items {
+    display: flex;  
+    align-items: baseline;
+    flex-direction: wrap;
+    justify-content: center;
+}
+.button, #adv_button {
+    margin-top: 35px;
+    height: 35px;
+    width: 125px;
+    color: rgb(114, 114, 114);
+    margin-right: 10px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 4px;
+    border: none;
+    align-items: inherit;
+    outline: none;
+}
+.button:hover{
+    border: 1px solid rgb(192, 192, 192);
+    cursor: pointer;
+    outline: none;
+
+}
+.right_items {
+    display: flex;
+    justify-content: flex-end;
+    margin: 30px ;
+}
+a {
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.text_color {
+    color: rgb(87, 87, 87);
+}
+img {
+    width: 350px;
+}
+#adv_top_container {
+    background-color: rgb(228, 228, 228);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#adv_header {
+    color: rgb(214, 10, 10);
+    margin-left: 50px;
+    font-weight: normal;
+}
+.form_div {
+    width: 100%;
+    clear: both;
+}
+#adv_div_header {
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+#adv_right_text {
+    margin-left: 620px;
+    color: rgb(85, 85, 85);
+}
+table {
+    margin-left: 40px;
+    display: flex;
+    width: 100%;
+}
+tr {
+    height: 40px;
+}
+td {
+    font-size: 15px;
+    width: 200px;
+}
+#right_td {
+    font-size: 13px;
+    width: 300px;
+    color: rgb(102, 102, 102);
+}
+.boxes {
+    width: 550px;
+    height: 25px;
+    margin-right: 20px;
+    border: 1px solid rgb(202, 202, 202);
+}
+.boxes:focus {
+    border: 1px solid blue;
+    outline: none;
+}
+html, body {
+    margin: 0;
+}
+#adv_back_to_search {
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+#adv_google_logo {
+    width: 95px;
+    margin-left: 10px;
+}
+#find_page_header {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: rgb(56, 56, 56);
+}
+#form_div {
+    display: flex;
+    width: 100%;
+}
+#adv_button {
+    background-color:rgb(48, 121, 230);
+    margin-left: 676px;
+    color: white;
+    outline: none;
+}
+#adv_button:hover {
+    background-color: rgb(76, 140, 236);
+    cursor: pointer;
+}
+

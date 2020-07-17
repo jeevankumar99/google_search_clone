@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="styles.css"> 
+    </head>
+    <body>
+        <div id="adv_top_container">
+            <img id="adv_google_logo" src="assets/google_logo.png" alt="Google Logo">
+            <span>Clone</span>
+            <a id="adv_back_to_search" href="index.html">Back to Search</a>
+        </div>
+        <div id="adv_div_header">
+            <h2 id="adv_header">Advanced Search</h2>
+        </div>
+        <div id="find_page_header">
+            <span style="margin-left: 40px">Find Pages with...</span>
+            <span id="adv_right_text">To do this in the search box</span>
+        </div>
+        <div id="form_div">
+            <form action="https://www.google.com/search">
+                <table>
+                    <tr>
+                        <td>all these words:</td>
+                        <td><input class="boxes" type="text" name="as_q">
+                        <td id="right_td">Type the important words: tri-colour rat terrier</td>
+                    </tr>
+                    <tr>
+                        <td>these exact words or phrase:</td>
+                        <td><input class="boxes" type="text" name="as_epq">
+                        <td id="right_td">Put exact words in quotes: "rat terrier"</td>
+                    </tr>
+                    <tr>
+                        <td>any of these words:</td>
+                        <td><input class="boxes" type="text" name="as_oq">
+                        <td id="right_td">Type OR between all the words you want: miniature OR standard</td>
+                    </tr>
+                    <tr>
+                        <td>none of these words:</td>
+                        <td><input class="boxes" type="text" name="as_eq">
+                        <td id="right_td">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+                    </tr>
+                </table>
+                <div >
+                    <input id="adv_button" type="submit" value="Advanced Search">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
